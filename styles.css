@@ -1,0 +1,76 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px 30px 20px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 5.6rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 1.7rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+.btn{
+  display: block;
+  margin: 20px auto 10px;
+  height: 40px;
+  width: 150px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 3 rem;
+  background-color: #4ECCA3;
+  cursor: pointer;
+  position: relative;
+  bottom: 370px;
+  left: 350px;
+}
+
+@media only screen and (max-width : 1024px){
+.btn{
+  position:static;
+}
+}
+.state1 , .state2{
+  margin: 10px 0;
+}
+
+.confirmBet{
+  height: 25px;
+  width: 70px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #4ECCA3;
+  cursor: pointer;
+}
+
+.dice p{
+  margin: 10px auto;
+}
+

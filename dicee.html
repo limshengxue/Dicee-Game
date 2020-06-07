@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dicee</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container">
+      <h1 class="title">Dicee</h1>
+      
+      <div class="profile1">
+        <p class="state1">Total cash left : 100</p>
+      </div>
+
+      <div class="dice">
+        <p>Player 1</p>
+        <img class="img1" src="images/dice6.png">
+      </div>
+
+      <div class="dice">
+        <p>Player 2</p>
+        <img class="img2" src="images/dice6.png">
+      </div>
+
+      <div class="profile2">
+        <p class="state2">Total cash left : 100</p>
+      </div>
+
+      <form class="betForm">
+        <p>Agree Upon A Bet</p>
+        <input type="number" id="bet" name="bet" min="10" max="100" step="1">
+        <button class="confirmBet" type="submit">Confirm</button>
+      </form>
+
+      <button class="play btn">Give it a roll</button>
+      <button class="new btn">New Game</button>
+
+    </div>
+
+
+  </body>
+
+  <footer>
+    www 🎲 App Brewery 🎲 com
+  </footer>
+  <script src="script.js"></script>
+</html>
